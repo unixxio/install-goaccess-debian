@@ -3,17 +3,11 @@
 #### Step 1 - Download install script
 
 ```
-wget https://github.com/unixxio/install-goaccess-debian/archive/master.zip
+wget https://raw.githubusercontent.com/unixxio/install-goaccess-debian/master/install_goaccess.sh
 ```
 
-#### Step 2 - Unzip master.zip
+#### Step 2 - Execute install script
 
 ```
-unzip master.zip
-```
-
-#### Step 3 - Execute install script
-
-```
-cd install-goaccess-debian && chmod +x install_goaccess.sh && ./install_goaccess.sh
+chmod +x install_goaccess.sh && ./install_goaccess.sh
 ```
