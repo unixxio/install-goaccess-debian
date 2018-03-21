@@ -9,5 +9,5 @@ wget https://raw.githubusercontent.com/unixxio/install-goaccess-debian/master/in
 #### Step 2 - Execute install script
 
 ```
-chmod +x install_goaccess.sh && ./install_goaccess.sh
+sudo chmod +x install_goaccess.sh && sudo ./install_goaccess.sh
 ```
